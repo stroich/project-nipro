@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+
+}
+.center{
+    text-align: center;
+    width: 1110px;
+}
+h6{
+    color: #333333;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+p{
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+div.menu div:first-child{
+    height: auto;
+}
+div.container h1{
+    float: left;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+li{
+    text-transform: uppercase;
+    float: left;
+    list-style-type: none;
+    margin-left: 29px;
+    margin-top: 50px;
+    margin-bottom: 44px;
+    color: #8e8e8e;
+    }
+div.menu div.container ul{margin-left: 398px;}
+.img{
+    clear: both;
+    background-image: url(img/1.jpg);
+    background-size:cover;
+    height: 700px;
+    background-position-y: 3px;
+}
+div.img h2{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 210px;
+}
+div.img p:first-of-type{
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+padding-right: 468px;
+padding-top: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 55px;
+}
+div.img p:last-of-type{
+    width: 116px;
+    height: 15px;
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 110px;
+}
+.text{
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    }
+div.text div.container{
+    height: auto;
+    text-align: center;
+    font-family: Roboto;
+
+}
+ h4 {
+     color: #333333;
+    font-family: Lato;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 30px;
+ }
+div.text h4+p {
+    color: #8e8e8e;
+    line-height: 30px;
+    padding-top: 49px;
+padding-bottom: 150px;
+}
+.border{
+    width: 237px;
+    height: 298px;
+    color: #8e8e8e;
+    line-height: 27px;
+    border: #8e8e8e38 solid 1px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+div.text div.container div h6{
+    margin-top: 30px;
+}
+ h5 {
+     color: #8e8e8e;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
+div.text div.container div div {
+    height: 50px;
+    margin: -20px  auto 0px;
+    float: none;
+    width: 53px;
+    border: 0px;
+    }
+
+div.text div.container div:first-of-type div{
+    background: url("img/5_1.jpg") no-repeat;
+    background-color: white;
+    }
+div.text div.container div:nth-of-type(2) div{
+    background: url("img/5_2.png") no-repeat;
+    background-color: white;
+}
+div.text div.container div:nth-of-type(3) div{
+    background: url("img/5_3.png") no-repeat;
+    background-color: white;
+
+}
+div.text div.container div:nth-of-type(4) div{
+        background: url("img/5_4.png") no-repeat;
+        background-color: white;
+}
+.recent{
+    text-align: center;
+    background-color: #f8f8f8;
+}
+div.recent div.container{
+    height: 1176px;
+}
+div.recent ul{
+    margin-left: 306px;
+    height: 190px;
+}
+div.recent li{
+    font-size: 16px;
+    padding: 10px;
+}
+div.recent li:first-of-type{
+    border: 1px solid black;
+    color: #333333;
+    font-weight: 500;
+}
+.img2{
+    width: 350px;
+    height: 377px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+div.img2:first-of-type{
+    background-image: url("img/6.png");
+}
+div.img2:nth-child(2) div{
+    position: absolute;
+}
+.image{
+    background-image: url("img/7a.jpg");
+    width: 350px;
+    height: 298px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.plus{
+    width: 350px;
+    height: 298px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-image: url("img/7b.png");
+    position: absolute;
+    top: -0px;
+    opacity: 0;
+}
+.plus:hover{ opacity: 1;}
+
+div.img2:nth-child(3){
+    background-image: url("img/8.jpg");
+}
+div.img2:nth-child(4){
+    background-image: url("img/9.jpg");
+}
+div.img2:nth-child(5){
+    background-image: url("img/10.jpg");
+}
+div.img2:nth-child(6){
+    background-image: url("img/11.jpg");
+}
+div.img2 h5 {margin-top: 314px;
+margin-bottom: 6px;
+text-align: left;
+}
+div.img2:nth-child(2) h5{
+    color: #333333;
+}
+div.img2 p{
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+div.why div.container{
+    height: auto;
+}
+.roboto{
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+div.why div.container div div{
+    width: 350px;
+    height: 364px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 79px;
+}
+div.why div.container div div.float{
+    height: 60px;
+    margin-top: 30px;
+}
+div.container div div.float h5 {
+    margin: 0px;
+    text-align: left;
+    margin-left: 60px;
+}
+.black{
+    color: #333333;
+}
+div.man1{
+    background-image: url("img/17.jpg");
+    background-size:cover;
+    background-position-y: -3px;
+    height: 642px;
+}
+div.man1 li{
+    width: 255px;
+    height: 340px;
+    background-color: white;
+    margin-right: 22px;
+    margin-top: 190px;
+    margin-left: 0px;
+}
+div.man1 li h6{
+     margin-bottom: 10px;
+     margin-left: 5px;
+}
+div.man1 li p{
+       margin-left: 5px;
+}
+.price{
+    width: 255px;
+    height: 428px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 22px;
+    margin-top: 108px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+div.price button {
+    margin-top: 28px;
+}
+div.price span{
+    color: #333333;
+    font-size: 36px;
+}
+div.price div{
+    width: 100px;
+    height: 16px;
+    margin-top: -44px;
+    background-color: white;
+}
+div.price p:first-of-type{
+    margin-top: 40px;
+}
+div.best div.container{
+    height: auto;
+}
+div.best div.price:nth-of-type(2) div{
+    width: 53px;
+}
+.r{
+    border: 1px solid #333333;
+}
+
+div.nipro {
+    height: 100px;
+    background-color: #f8f8f8
+}
+h2{
+    color: #333333;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+div.nipro h2{
+    float: left;
+    margin-top: 42px;
+}
+div.nipro button{
+    float: right;
+    margin-top: 28px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

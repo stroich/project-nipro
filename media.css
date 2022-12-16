@@ -1,0 +1,58 @@
+@media all and (max-width: 1150px)
+{
+    .container{
+        width: 740px;
+    }
+    .center{
+        width: 740px;
+    }
+    div.menu div.container ul {
+        margin-left: 231px;
+    }
+    div.container h1 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    div.container li{
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 28px;
+    }
+    div.img h2 {
+        font-size: 58px;
+    }
+    div.img p:first-of-type{
+        padding-right: 334px;
+    }
+    div.text h4+p {
+        padding-bottom: 24px;
+    }
+    .border{
+        margin-right: 58px;
+        margin-left: 58px;
+        margin-bottom: 20px;
+    }
+    div.recent ul{
+        height: 129px;
+        margin: 0 auto;
+        width: 600px;
+    }
+    div.why div.container div div:last-of-type{
+        margin: 0 auto;
+        float: none;
+        clear: both;
+    }
+    div.man li{
+        margin-left: 81px;
+    }
+    div.man1{
+        height: 755px;
+    }
+    .price{
+        margin-right: 46px;
+        margin-left: 69px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+}
